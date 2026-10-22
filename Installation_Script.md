@@ -887,7 +887,3 @@ Confirm that all three DataNodes are reported and that HDFS is operating as expe
 - Keep SSH host-key verification enabled wherever possible.
 - Hadoop 1.2.1 is a legacy release. Use an isolated lab environment and avoid exposing Hadoop services to untrusted networks.
 - Never format an existing NameNode or delete HDFS storage directories without a deliberate recovery plan.
-
-## License
-
-Add a `LICENSE` file if you intend to distribute or reuse this guide publicly.
