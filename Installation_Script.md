@@ -50,14 +50,14 @@ The cluster consists of six Ubuntu nodes.
 
 | Hostname | IP Address |
 |---|---|
-| `nn` | `172.31.6.219` |
-| `snn` | `172.31.5.143` |
-| `jt` | `172.31.3.70` |
-| `dn1` | `172.31.11.103` |
-| `dn2` | `172.31.14.128` |
-| `dn3` | `172.31.5.116` |
+| `nn` | `10.0.0.11` |
+| `snn` | `10.0.0.12` |
+| `jt` | `10.0.0.13` |
+| `dn1` | `10.0.0.14` |
+| `dn2` | `10.0.0.15` |
+| `dn3` | `10.0.0.16` |
 
-Replace these addresses with the actual private IP addresses of your instances.
+These are documentation-only example addresses from the private `10.0.0.0/8` range. Replace them with the actual private IP addresses of your own instances before running the installation.
 
 ## Prerequisites
 
@@ -142,12 +142,12 @@ sudo vi /etc/hosts
 Keep the existing localhost entries and add the following:
 
 ```text
-172.31.6.219 nn
-172.31.5.143 snn
-172.31.3.70 jt
-172.31.11.103 dn1
-172.31.14.128 dn2
-172.31.5.116 dn3
+10.0.0.11 nn
+10.0.0.12 snn
+10.0.0.13 jt
+10.0.0.14 dn1
+10.0.0.15 dn2
+10.0.0.16 dn3
 ```
 
 Save and close the file.
